@@ -1,12 +1,88 @@
-# React + Vite
+# ☀️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern weather app built with **React** and **Material UI** that allows users to search for cities and view real-time weather information using the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Autocomplete search with live suggestions
+- 🌤️ Dynamic weather info based on the selected city
+- 🧊 Displays temperature, min/max temp, humidity & conditions
+- 🎨 Elegant UI with intersecting layout and glassmorphism design
+- 📱 Fully mobile responsive
+- ⚡ Built with Vite for lightning-fast performance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌐 Live Demo
+
+🔗 [Click here to view the deployed app](https://your-netlify-link.netlify.app)
+
+---
+
+## 📦 Tech Stack
+
+- **React** (with hooks)
+- **Material UI (MUI)** components
+- **OpenWeatherMap API**
+- **Vite** (as the build tool)
+- **Netlify** (for deployment)
+
+---
+
+## 🛠️ How to Run Locally
+
+1. Clone the repository  
+```bash
+git clone https://github.com/JhanvibaZala/Weather-App.git
+cd Weather-App
+````
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Create a `.env` file and add your OpenWeather API key:
+
+```bash
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+
+4. Start the server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧠 API Used
+
+* [OpenWeatherMap API](https://openweathermap.org/api)
+* [Geo Direct API](https://openweathermap.org/api/geocoding-api) for location suggestions
+
+---
+
+## 📷 Screenshots
+
+| Desktop View                        | Mobile View                       |
+| ----------------------------------- | --------------------------------- |
+| ![Desktop](screenshots/desktop.png) | ![Mobile](screenshots/mobile.jpg) |
+
+---
+
+## 💡 Future Improvements
+
+* Add dark/light theme toggle 🌗
+* Include weather icons and animations ⛅
+* Save recent searches in local storage
+* Display current time and sunrise/sunset
+
+---
+
+## 🙋‍♀️ Author
+
+Developed by [Jhanvi Zala](https://github.com/JhanvibaZala)
