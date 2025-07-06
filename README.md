@@ -17,7 +17,7 @@ A responsive and modern weather app built with **React** and **Material UI** tha
 
 ## 🌐 Live Demo
 
-🔗 [Click here to view the deployed app](https://your-netlify-link.netlify.app)
+🔗 [Weather App](https://weatherapp217.netlify.app/)
 
 ---
 
