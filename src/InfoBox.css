@@ -1,0 +1,39 @@
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cardClass {
+  width: 90%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.MuiCardContent-root {
+  padding: 20px;
+}
+
+.MuiTypography-h5 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.MuiTypography-body2 div {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #222;
+}
+
+.MuiCardMedia-root {
+  max-height: 180px;
+  object-fit: cover;
+}
